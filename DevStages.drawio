@@ -1,0 +1,713 @@
+<mxfile host="Electron" modified="2024-04-01T12:37:07.114Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="UF2PbX37nxHYK9lvajyZ" version="24.1.0" type="device" pages="4">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="1 - Подготовка">
+    <mxGraphModel dx="2074" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="d4WijWaE-hTvjSipiFuE-69" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="830" y="80" width="300" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-68" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="80" width="310" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-67" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="80" width="240" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-0" value="Подготовка" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="334" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ПЛК&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;HMI&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-3" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Схема&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-4" value="датчики" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="110" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-5" target="d4WijWaE-hTvjSipiFuE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-5" target="d4WijWaE-hTvjSipiFuE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-5" target="d4WijWaE-hTvjSipiFuE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-5" value="Анализ используемых технологий и составления перечня типовых устройств" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-6" value="дискретные" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="150" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-7" value="аналоговые" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="190" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-8" value="исполнительные устройства" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="230" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-9" value="1 управляющий сигнал" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="270" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-10" value="2 управляющих сигнала" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="460" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-11" value="без ОС" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="300" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-12" value="1 ОС" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="330" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-13" value="2 ОС" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="360" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-14" value="2 ОС" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="390" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-16" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="420" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-17" value="без ОС" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="490" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-18" value="1 ОС" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="520" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-19" value="2 ОС" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="550" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-20" value="2 ОС" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="580" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-21" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="610" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-22" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="650" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-23" value="комплексные устройства" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="690" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-25" value="резервируемые группы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="720" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-26" value="конвейера" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="750" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-27" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="780" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-29" target="d4WijWaE-hTvjSipiFuE-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-29" value="Разработка шаблонов схем подключения типовых устройств" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-30" target="d4WijWaE-hTvjSipiFuE-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-30" value="Разработка общего корпоративного стиля проекта" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-31" target="d4WijWaE-hTvjSipiFuE-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-31" value="Разработка базового функционала" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-34" value="- сбор аварий&lt;br&gt;- генерация импульсов&lt;br&gt;- обработка аварий&lt;br&gt;- вспомогательные фунцкции&lt;br&gt;- ..." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="200" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-35" target="d4WijWaE-hTvjSipiFuE-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-35" value="Разработка библиотеки управления типовыми устройствами" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-36" target="d4WijWaE-hTvjSipiFuE-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-36" value="Базовый функционал" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="400" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-37" value="Таблицы перменных" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="380" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-38" target="d4WijWaE-hTvjSipiFuE-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-38" value="Типовые наборы данных для каждого типа устройств" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="420" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-42" target="d4WijWaE-hTvjSipiFuE-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-42" value="Разработка типовых схем подключения для каждого типа устройств" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-43" target="d4WijWaE-hTvjSipiFuE-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-43" value="перечень сигналов для каждого типа устройств" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="310" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-44" value="Таблицы перменных" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="290" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-47" target="d4WijWaE-hTvjSipiFuE-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="390" />
+              <mxPoint x="1080" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-47" value="Разработка общего шаблона навигации по экранным формам" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-48" target="d4WijWaE-hTvjSipiFuE-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="470" />
+              <mxPoint x="1080" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-48" value="Разработка экранных форм настройки типовых устройств" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="440" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-51" target="d4WijWaE-hTvjSipiFuE-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-51" value="Вспомогательные переменные для базового функционала и экранных форм настройки типовых устройств" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="860" y="620" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-52" value="Таблицы перменных" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="860" y="600" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-53" value="Интеграция вспомогательных переменных HMI в ППО ПЛК" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="610" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-55" target="d4WijWaE-hTvjSipiFuE-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-55" value="Таблица аварийных сигналов для каждого типа устройств" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="470" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d4WijWaE-hTvjSipiFuE-56" target="d4WijWaE-hTvjSipiFuE-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="550" />
+              <mxPoint x="1080" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-56" value="Шаблон аварийных сообщений для каждого типа устройств" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="880" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-60" value="Шаблон ППО&lt;br&gt;(по N устройств каждого типа)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="720" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-63" value="Шаблон ППО&lt;br&gt;(по N устройств каждого типа)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="910" y="720" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-64" value="Библиотека иконок PNG, JPG:&lt;br&gt;- для навигации&lt;br&gt;- для отображения состояний устройств&lt;br&gt;- для условных обозначений&lt;br&gt;- для состояний&lt;br&gt;- ..." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="920" y="200" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-65" value="Дубликат для малых экранов (4&quot;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="920" y="310" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d4WijWaE-hTvjSipiFuE-79" value="Шаблон схемы&lt;br&gt;(по N устройств каждого типа)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="720" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Whei1SL9MjNzVVqYjjXJ-0" value="техническое зрение" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="850" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Whei1SL9MjNzVVqYjjXJ-1" value="сетевые устройства" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="820" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Whei1SL9MjNzVVqYjjXJ-2" value="ПЧ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="880" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Whei1SL9MjNzVVqYjjXJ-3" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="910" width="160" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OCCTFtJFqcyW3e1QhQpO" name="2 - Ручной режим">
+    <mxGraphModel dx="2440" dy="1407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UyN9rIGYULMFa9WDBbex-1" target="t5gSw52pLhk1NS2Xrz2s-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="840" y="80" width="300" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UyN9rIGYULMFa9WDBbex-2" target="t5gSw52pLhk1NS2Xrz2s-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="320" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UyN9rIGYULMFa9WDBbex-3" target="t5gSw52pLhk1NS2Xrz2s-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="240" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-4" value="Ручной режим" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ПЛК&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="595" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;HMI&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="900" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UyN9rIGYULMFa9WDBbex-12" target="UyN9rIGYULMFa9WDBbex-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UyN9rIGYULMFa9WDBbex-12" target="UyN9rIGYULMFa9WDBbex-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UyN9rIGYULMFa9WDBbex-12" target="UyN9rIGYULMFa9WDBbex-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-12" value="Анализ технологического задания" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UyN9rIGYULMFa9WDBbex-64" target="ojQBIADU4h15W3MPaaTm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-64" value="Шаблон ППО&lt;br&gt;(по N устройств каждого типа)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="625" y="120" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UyN9rIGYULMFa9WDBbex-65" target="S10ckq6mLoWsyhzz--iw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-65" value="Шаблон ППО&lt;br&gt;(по N устройств каждого типа)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="930" y="120" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UyN9rIGYULMFa9WDBbex-68" target="UyN9rIGYULMFa9WDBbex-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-68" value="Шаблон схемы&lt;br&gt;(по N устройств каждого типа)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="355" y="120" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-71" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Схема&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="325" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UyN9rIGYULMFa9WDBbex-73" target="xv38KgwSSvHSOU0r6f3L-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-73" value="Электрическая схема подключения всех устройств" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UyN9rIGYULMFa9WDBbex-74" target="xv38KgwSSvHSOU0r6f3L-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-74" value="Схема конфигурации сетевых подключений" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UyN9rIGYULMFa9WDBbex-75" value="- адреса TCP/IP&lt;br&gt;- адреса Modbus RTU&lt;br&gt;- параметры связи Modbus RTU&lt;br&gt;- адреса EtherCAT&lt;br&gt;- адреса ProfiBus&lt;br&gt;- ..." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="354" y="490" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rlu5ZEuKnPmsTW7tZR-L-1" value="список используемых датчиков с указанием типа сигналов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rlu5ZEuKnPmsTW7tZR-L-4" value="список используемых исполнительных механизмов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ojQBIADU4h15W3MPaaTm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rlu5ZEuKnPmsTW7tZR-L-4" target="rlu5ZEuKnPmsTW7tZR-L-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ojQBIADU4h15W3MPaaTm-2" value="техническая документация от производителя на все используемые устройства" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ojQBIADU4h15W3MPaaTm-3" value="руководства по экплуатации от производителя на все используемые устройства" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="280" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ojQBIADU4h15W3MPaaTm-4" value="таблицы коммуникации от производителя на все используемые сетевые устройства" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ojQBIADU4h15W3MPaaTm-5" target="ojQBIADU4h15W3MPaaTm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ojQBIADU4h15W3MPaaTm-5" value="Конфигурация HW ПЛК в соответствии с электрической схемой" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ojQBIADU4h15W3MPaaTm-6" target="xv38KgwSSvHSOU0r6f3L-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ojQBIADU4h15W3MPaaTm-6" value="Конфигурация сетевых подключений ПЛК в соответствии с электрической схемой" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="370" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xv38KgwSSvHSOU0r6f3L-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="xv38KgwSSvHSOU0r6f3L-1" target="ojQBIADU4h15W3MPaaTm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xv38KgwSSvHSOU0r6f3L-1" target="UyN9rIGYULMFa9WDBbex-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xv38KgwSSvHSOU0r6f3L-1" value="Схема электрическая" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="380" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xv38KgwSSvHSOU0r6f3L-2" value="Схемы подключений" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xv38KgwSSvHSOU0r6f3L-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="xv38KgwSSvHSOU0r6f3L-3" target="ojQBIADU4h15W3MPaaTm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xv38KgwSSvHSOU0r6f3L-3" value="Схема сети" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="640" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xv38KgwSSvHSOU0r6f3L-4" value="Схемы подключений" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="620" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xv38KgwSSvHSOU0r6f3L-7" target="t5gSw52pLhk1NS2Xrz2s-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xv38KgwSSvHSOU0r6f3L-7" value="Конфигурирование ППО под соответствующее количество устройств +20% резерва" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="460" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="S10ckq6mLoWsyhzz--iw-1" target="t5gSw52pLhk1NS2Xrz2s-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="S10ckq6mLoWsyhzz--iw-1" target="S10ckq6mLoWsyhzz--iw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S10ckq6mLoWsyhzz--iw-1" value="Перечень всех устройств:&lt;br&gt;- имена по электрической схеме&lt;br&gt;- типы используемых драйверов&lt;br&gt;- порядок вызова по элементам массива типовых драйверов" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="560" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="S10ckq6mLoWsyhzz--iw-2" value="Таблица данных" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="575" y="540" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S10ckq6mLoWsyhzz--iw-3" target="t5gSw52pLhk1NS2Xrz2s-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S10ckq6mLoWsyhzz--iw-3" value="Конфигурирования количества экранов типовых устройств" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-1" value="Привязка имён всех устройств и их параметров в соответствии с таблицей" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="370" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-3" value="Привязка входных и выходных сигналов к вызываемым драйверам" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="595" y="700" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-15" value="Проект ППО ПЛК с полной готовностью к IO тесту" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="625" y="780" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-16" value="Проекта ППО HMI с полной готовностью к IO тесту" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="930" y="780" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-17" value="Электрическая схема проект.&lt;br&gt;&lt;br&gt;Сетевая схема проекта." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="355" y="780" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t5gSw52pLhk1NS2Xrz2s-3" target="t5gSw52pLhk1NS2Xrz2s-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t5gSw52pLhk1NS2Xrz2s-1" target="t5gSw52pLhk1NS2Xrz2s-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="240" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-21" value="ТЗ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="570" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-22" value="Разработка технологических схем" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="610" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-24" value="Технологическая схема" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="710" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-25" value="Схемы технологические" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="690" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-26" value="Гидравлическая схема" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="730" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-27" value="Схема компоновки всех технологических элементов, подлежащих автоматизации." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="100" y="780" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-28" value="Проведение испытаний" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="960" width="1100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-29" value="- проверека электрических подключений в ШУ&lt;br&gt;- проверка сетевых параметров всех устройств в ШУ&lt;div&gt;- настройка сетевых параметров всех устройств в ШУ&lt;br&gt;- проверка связи между ПЛК и HMI&lt;/div&gt;&lt;div&gt;- проверка корректности обмена данными между ПЛК и HMI&lt;/div&gt;&lt;div&gt;- проведение IO теста с первичным конфигурированием датчиков и исполнительных механизмов на HMI через экраны ручного управления и настройки&lt;br&gt;- проведение пробного запуска всех исполнительных механизмов с HMI в ручном режиме&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1010" width="510" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-30" value="Акт проверки ШУ" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1170" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-31" value="Акты" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460" y="1150" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t5gSw52pLhk1NS2Xrz2s-32" value="Акт проверки ручного режима" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1190" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DdTWrB9DGCIcJ9BIaPs7-1" value="таблица обмена данными с внешними системами от производителя" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DdTWrB9DGCIcJ9BIaPs7-2" value="список параметров, передаваемых по сети внешним системам &lt;br&gt;(от нас)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="490" width="200" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6WozSdFIhIbTpDf5Ci7n" name="3 - Автоматический режим">
+    <mxGraphModel dx="2074" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q-A7sL1kg8N9Ky-ZAPIr-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="840" y="80" width="300" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-A7sL1kg8N9Ky-ZAPIr-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="320" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-A7sL1kg8N9Ky-ZAPIr-4" value="Автоматический режим" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-A7sL1kg8N9Ky-ZAPIr-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ПЛК&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="595" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-A7sL1kg8N9Ky-ZAPIr-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;HMI&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="900" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-A7sL1kg8N9Ky-ZAPIr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="190" as="sourcePoint" />
+            <mxPoint x="150" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q-A7sL1kg8N9Ky-ZAPIr-50" value="Проект ППО ПЛК с полной готовностью к IO тесту" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="625" y="120" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-A7sL1kg8N9Ky-ZAPIr-51" value="Проекта ППО HMI с полной готовностью к IO тесту" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="930" y="120" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-A7sL1kg8N9Ky-ZAPIr-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="240" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-A7sL1kg8N9Ky-ZAPIr-56" value="ТЗ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s_qybD9XonVm6MVMrx9Q-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Q-A7sL1kg8N9Ky-ZAPIr-61" target="s_qybD9XonVm6MVMrx9Q-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S406Q26cFhAfAK5uPa9R-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.281;entryDx=0;entryDy=0;dashed=1;entryPerimeter=0;" edge="1" parent="1" source="Q-A7sL1kg8N9Ky-ZAPIr-61" target="S406Q26cFhAfAK5uPa9R-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-A7sL1kg8N9Ky-ZAPIr-61" value="Схема компоновки всех технологических элементов, подлежащих автоматизации." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KhinSc9p86ux3-PzVcBK-5" target="KhinSc9p86ux3-PzVcBK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3qmNQOuc9ecuuToy6bCa-1" target="mw3tirBC2OvBjZRLVt_H-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3qmNQOuc9ecuuToy6bCa-1" value="Разбиение ТЗ на технологические участки" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S406Q26cFhAfAK5uPa9R-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="mw3tirBC2OvBjZRLVt_H-1" target="S406Q26cFhAfAK5uPa9R-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="415" />
+              <mxPoint x="390" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S406Q26cFhAfAK5uPa9R-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="mw3tirBC2OvBjZRLVt_H-1" target="S406Q26cFhAfAK5uPa9R-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mw3tirBC2OvBjZRLVt_H-1" value="Перечень технологических участков" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="400" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mw3tirBC2OvBjZRLVt_H-2" value="Таблица данных" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="350" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mw3tirBC2OvBjZRLVt_H-3" value="Описание алгоритма работы каждого технологического участка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="455" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S406Q26cFhAfAK5uPa9R-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="mw3tirBC2OvBjZRLVt_H-5" target="S406Q26cFhAfAK5uPa9R-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s_qybD9XonVm6MVMrx9Q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s_qybD9XonVm6MVMrx9Q-1" target="s_qybD9XonVm6MVMrx9Q-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_qybD9XonVm6MVMrx9Q-1" value="Разработка мнемосхемы технологического процесса" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S406Q26cFhAfAK5uPa9R-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s_qybD9XonVm6MVMrx9Q-2" target="S406Q26cFhAfAK5uPa9R-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_qybD9XonVm6MVMrx9Q-2" value="Привязка данных о состоянии соответствующих устройств к мнемосхеме" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="350" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S406Q26cFhAfAK5uPa9R-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="K_HPZ1lnEDzYPhEFRFDH-1" target="S406Q26cFhAfAK5uPa9R-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S406Q26cFhAfAK5uPa9R-7" target="KhinSc9p86ux3-PzVcBK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S406Q26cFhAfAK5uPa9R-1" value="Разработка функциональных блоков управления каждым технологическим участком" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="510" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S406Q26cFhAfAK5uPa9R-7" value="Разработка экранов настройки параметров технологических участков" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="430" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="KhinSc9p86ux3-PzVcBK-1" target="KhinSc9p86ux3-PzVcBK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KhinSc9p86ux3-PzVcBK-3" target="S406Q26cFhAfAK5uPa9R-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-3" value="Формирование технологических блокировок" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="355" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-5" value="Технологические блокировки" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="370" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KhinSc9p86ux3-PzVcBK-7" target="KhinSc9p86ux3-PzVcBK-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-7" value="Вывод на экран всех необходимых данных для параметрирования работы всех участков" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="570" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K_HPZ1lnEDzYPhEFRFDH-1" value="Мнемосхема" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="530" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K_HPZ1lnEDzYPhEFRFDH-2" value="Схемы технологические" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="880" y="510" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-12" value="Технологическое описание работы установки в соответствии с ТЗ" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mw3tirBC2OvBjZRLVt_H-3" target="KhinSc9p86ux3-PzVcBK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-15" value="Проект ППО ПЛК готовый к тестированию автоматического режима" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="630" y="760" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-16" value="Проект ППО HMI готовый к тестированию автоматического режима" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="930" y="760" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-17" value="Вывод на экран общего управления процессом" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="650" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8RZR4pEL7Omc4xLT47W6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S406Q26cFhAfAK5uPa9R-1" target="KhinSc9p86ux3-PzVcBK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8RZR4pEL7Omc4xLT47W6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KhinSc9p86ux3-PzVcBK-17" target="KhinSc9p86ux3-PzVcBK-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-1" value="Параметры каждого технологического участка:&lt;br&gt;- название параметра&lt;br&gt;- размерность и ед. изм.&lt;br&gt;- рекомендуемые границы&lt;br&gt;- ограничения управления&lt;br&gt;- перечень опций и режимов работы" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="610" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KhinSc9p86ux3-PzVcBK-2" value="Таблица данных" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="580" y="590" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mw3tirBC2OvBjZRLVt_H-4" value="Перечь устройств участка" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="560" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mw3tirBC2OvBjZRLVt_H-5" value="Таблица данных" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="540" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mw3tirBC2OvBjZRLVt_H-6" value="Алгоритм работы участка" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="580" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BcJWLlMonQEjHa2nKENl-1" value="Перечень обязательных параметров" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="600" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zBND1HC0m78mK059N97z" name="4 - Тестирование">
+    <mxGraphModel dx="2074" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="68V3wGHWKGI6djOcHnAg-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="840" y="80" width="300" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="68V3wGHWKGI6djOcHnAg-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="320" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="68V3wGHWKGI6djOcHnAg-3" value="Комплексное тестирование перед ПНР" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="230" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="68V3wGHWKGI6djOcHnAg-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ПЛК&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="595" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="68V3wGHWKGI6djOcHnAg-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;HMI&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="900" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="68V3wGHWKGI6djOcHnAg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="190" as="sourcePoint" />
+            <mxPoint x="150" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68V3wGHWKGI6djOcHnAg-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="240" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="68V3wGHWKGI6djOcHnAg-10" value="ТЗ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="68V3wGHWKGI6djOcHnAg-13" value="Схема компоновки всех технологических элементов, подлежащих автоматизации." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="68V3wGHWKGI6djOcHnAg-43" value="Технологическое описание работы установки в соответствии с ТЗ" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="68V3wGHWKGI6djOcHnAg-45" value="Проект ППО ПЛК готовый к тестированию автоматического режима" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="620" y="120" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="68V3wGHWKGI6djOcHnAg-46" value="Проект ППО HMI готовый к тестированию автоматического режима" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="930" y="120" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq0fPvnWgS5H14LY0A7Q-1" value="Разработка плана тестирования автоматического режима" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="430" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq0fPvnWgS5H14LY0A7Q-2" value="План комплексного тетстирования" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="560" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq0fPvnWgS5H14LY0A7Q-3" value="Таблица данных" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="510" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq0fPvnWgS5H14LY0A7Q-4" value="План тестирования каждого участка" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="530" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_RkBwBKwz_G3iTLYPVgN-1" value="Проведение испытаний" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="620" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_RkBwBKwz_G3iTLYPVgN-2" value="- проверка работы технологических блокировок с имитацией данных&lt;br&gt;- проверка работы каждого технологического участка с имитацией данных&lt;br&gt;- проверка поведения технологических участков при технологических блокировках&lt;br&gt;- проверка срабатывания критических аварий&lt;br&gt;- проверка поведения технологических участков при критических авариях&lt;br&gt;- проверка комплексного поведения автоматического режима с имитацией данных&lt;br&gt;- проверка комплексного поведения автоматического режима с технологическими блокировками&lt;br&gt;- проверка комплексного поведения автоматического режима с критическими авариями&lt;br&gt;- проверка комплексного работы установки с имитацией данных в штатном режиме" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="590" y="320" width="510" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="33RpIA9PLUx5EOwTfPSd-1" value="Акт готовности к выезду на ПНР" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="510" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="33RpIA9PLUx5EOwTfPSd-2" value="Акты" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="740" y="490" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K9c5Jqx6rz7OYqMCBLN_-1" value="Проект ППО ПЛК готовый к ПНР" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="630" y="770" width="100" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="K9c5Jqx6rz7OYqMCBLN_-2" value="Проект ППО HMI готовый к ПНР" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="930" y="770" width="100" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

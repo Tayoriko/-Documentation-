@@ -1,0 +1,219 @@
+<mxfile host="Electron" modified="2023-07-18T08:40:45.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="LENp_aWuiw8dnYPETuIC" version="21.6.1" type="device">
+  <diagram id="Wmt1mwH2pdih0yQbkBk0" name="Страница 1">
+    <mxGraphModel dx="977" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="beBPknVEfmYA8eg16pOj-6" value="Датчик дискретный" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="20" width="150" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-7" value="Датчик аналоговый" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="120" width="150" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-8" value="Исполнительный механизм без обратной связи с 1 управляющим сигналом" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="15" width="460" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-10" value="Электромагнитный клапан" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="30" width="220" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-17" value="&lt;b&gt;Простые устройства:&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="20" width="235" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-32" value="НЕТ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-29" target="beBPknVEfmYA8eg16pOj-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-33" value="ДА" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-29" target="beBPknVEfmYA8eg16pOj-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-29" value="Оно управляется?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="350" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-30" target="beBPknVEfmYA8eg16pOj-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-30" value="Это датчик" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="507.06" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-31" target="beBPknVEfmYA8eg16pOj-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-31" value="Это исполнительный механизм" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_rvlW08Vd1hhf7yLqxZ5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-38" target="beBPknVEfmYA8eg16pOj-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-38" value="Дроби объект на компоненты дальше" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="19.999999999999996" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eq-mskxYq9o8EuTTGEDd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-39" target="beBPknVEfmYA8eg16pOj-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-39" value="Новый объект" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-42" value="Коммуникационный сигнал" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="45" width="220" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-45" value="Исполнительный механизм с обратной связи с 1 управляющим сигналом" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="65" width="460" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-46" value="Мотор с прямым пуском" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="80" width="220" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-47" value="Всё, что имеет 1 управляющий сигнал, сигнал готовности и сигнал &quot;В работе&quot;, &lt;br&gt;но не имеет датчиков положения" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="100" width="450" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-48" value="Исполнительный механизм с обратной связи с 2 управляющими сигналами" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="127" width="460" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-49" value="Клапан (воздушный или с электроприводом)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="142" width="300" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-50" value="Заслонка (воздушный или с электроприводом)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="157" width="300" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-51" value="Всё, что имеет 1 или 2 управляющих сигнала и хотя бы 1 датчик положения" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="172" width="470" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-52" value="Аналоговый выход" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="194.5" width="150" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-53" value="Задание скорости, положения, и т.д." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="209.5" width="300" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-54" value="Давление" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="135" width="150" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-55" value="Уровень" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="150" width="150" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-56" value="Скорость" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="165" width="150" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-57" value="Положение" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="180" width="150" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-58" value="Концентрация" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="195" width="150" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-59" value="Всё, что подключается на аналоговый вход" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="210" width="250" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-60" value="Концевик" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="35" width="150" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-61" value="Безопасность" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="50" width="150" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-64" value="Кнопка" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="65" width="150" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-65" value="Коммуникационный сигнал" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="95" width="200" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-66" value="Наличие продукта" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="80" width="150" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-70" value="НЕТ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-67" target="beBPknVEfmYA8eg16pOj-69" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-72" value="ДА" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-67" target="beBPknVEfmYA8eg16pOj-71" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-67" value="Оно дискретное?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="667.06" y="350" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-69" value="Это аналоговый датчик" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="667.06" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-71" value="Это дискретный датчик" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="667.06" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-81" value="ДА" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-73" target="beBPknVEfmYA8eg16pOj-80" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-90" value="НЕТ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-73" target="beBPknVEfmYA8eg16pOj-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-73" value="У него есть взаимоислючающие управлющиех сигналы?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="490" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ewiMDR3jDsiqDihS4YfP-7" value="Более 2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-78" target="beBPknVEfmYA8eg16pOj-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ewiMDR3jDsiqDihS4YfP-10" value="2 или менее" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-78" target="ewiMDR3jDsiqDihS4YfP-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-78" value="У него есть датчики крайних положений (не более 2)?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="610" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-89" value="ДА" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-80" target="beBPknVEfmYA8eg16pOj-88" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-80" value="У него 2 управляющих сигнала?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="142.06" y="760" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_rvlW08Vd1hhf7yLqxZ5-2" value="НЕТ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-80" target="beBPknVEfmYA8eg16pOj-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="137.06" y="720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="74.06" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-88" value="Это ИУ с 2 управляющими сигналами" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="142.06" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eq-mskxYq9o8EuTTGEDd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="beBPknVEfmYA8eg16pOj-93" target="eq-mskxYq9o8EuTTGEDd-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beBPknVEfmYA8eg16pOj-93" value="Это ИУ с 1 управляющим сигналом" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="667.06" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eq-mskxYq9o8EuTTGEDd-5" value="НЕТ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eq-mskxYq9o8EuTTGEDd-2" target="eq-mskxYq9o8EuTTGEDd-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eq-mskxYq9o8EuTTGEDd-9" value="ДА" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eq-mskxYq9o8EuTTGEDd-2" target="eq-mskxYq9o8EuTTGEDd-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eq-mskxYq9o8EuTTGEDd-2" value="У него есть контроль состояния?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="667.06" y="900" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eq-mskxYq9o8EuTTGEDd-4" value="Это ИУ с 1 управляющим сигналом без обратной связи" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="667.06" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eq-mskxYq9o8EuTTGEDd-6" value="Это ИУ с 1 управляющим сигналом с обратной связью" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ewiMDR3jDsiqDihS4YfP-11" value="ДА" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ewiMDR3jDsiqDihS4YfP-9" target="beBPknVEfmYA8eg16pOj-88" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380.06" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xsk0_4cY--6OLHVg92Mi-3" value="НЕТ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ewiMDR3jDsiqDihS4YfP-9" target="Xsk0_4cY--6OLHVg92Mi-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ewiMDR3jDsiqDihS4YfP-9" value="У него есть датчики крайних положений?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="760" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Xsk0_4cY--6OLHVg92Mi-4" value="ДА" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Xsk0_4cY--6OLHVg92Mi-2" target="beBPknVEfmYA8eg16pOj-93" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xsk0_4cY--6OLHVg92Mi-5" value="НЕТ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Xsk0_4cY--6OLHVg92Mi-2" target="beBPknVEfmYA8eg16pOj-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="567.06" y="1020" />
+              <mxPoint x="50.06" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xsk0_4cY--6OLHVg92Mi-2" value="Управляющий сигнал 1?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="507.06" y="760" width="120" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
